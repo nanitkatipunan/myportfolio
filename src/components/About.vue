@@ -7,9 +7,7 @@
   </v-row>
 
 
-  <v-hover>
-    <template v-slot:default="{ hover }">
-      <v-card class="mx-auto mt-2 " max-width="800">
+      <v-card class="mx-auto mt-2 card" max-width="800">
         <v-card-text>
           <v-row>
             <v-col cols="5" style="padding-left:5%;">
@@ -24,16 +22,7 @@
             </v-col>
           </v-row>
         </v-card-text>
-
-        <v-fade-transition>
-          <v-overlay v-if="hover" absolute color="grey lighten-1">
-            <!-- <v-btn >See more info</v-btn> -->
-            
-          </v-overlay>
-        </v-fade-transition>
       </v-card>
-    </template>
-  </v-hover>
   </v-col>
   
 </template>
@@ -44,7 +33,11 @@
 export default {
   props: ["data"],
   data: () => ({
-    overlay: false
   })
 };
 </script>
+<style scoped>
+  .card:hover{
+    background-color:rgba(220,220,220, 0.4)
+  }
+</style>

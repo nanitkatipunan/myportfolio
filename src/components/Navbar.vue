@@ -1,20 +1,17 @@
 
 <template>
-  <div>
-    <v-app-bar
-      color="primary"
-      dense
-      fixed
-      dark
-    >
-
-      
+  <v-card>
+    <v-app-bar color="primary" absolute elevate-on-scroll fixed>
       <v-spacer></v-spacer>
 
-      <v-tab to="/">Home</v-tab>
-      <v-tab to="/About">About Me</v-tab>
-      <v-tab to="/Resume">Resume</v-tab>
-      <v-tab to="/Contacts">Contact</v-tab>
+      <v-btn text style="color:white" to="/">Home</v-btn>
+
+      <v-btn text style="color:white" to="/about">About</v-btn>
+
+      <v-btn text style="color:white" to="/contacts">Contacts</v-btn>
     </v-app-bar>
-  </div>
+  </v-card>
 </template>
+
+
+

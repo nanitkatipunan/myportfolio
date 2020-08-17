@@ -18,9 +18,7 @@
             <v-list-item-content>
               <v-list-item-title>0997 625 3978</v-list-item-title>
             </v-list-item-content>
-            <v-list-item-action>
-              <v-icon>mdi-message-text</v-icon>
-            </v-list-item-action>
+          
           </v-list-item>
 
           <v-divider inset></v-divider>
@@ -34,9 +32,7 @@
               <v-list-item-title>0910 290 1882</v-list-item-title>
             </v-list-item-content>
 
-            <v-list-item-action>
-              <v-icon>mdi-message-text</v-icon>
-            </v-list-item-action>
+          
           </v-list-item>
 
           <v-divider inset></v-divider>
